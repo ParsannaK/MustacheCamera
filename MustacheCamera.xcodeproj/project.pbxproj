@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		08D2CD822CF2CE4700818466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D2CD692CF2CE4400818466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D2CD702CF2CE4400818466;
+			remoteInfo = MustacheCamera;
+		};
+		08D2CD8C2CF2CE4700818466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D2CD692CF2CE4400818466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D2CD702CF2CE4400818466;
+			remoteInfo = MustacheCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D2CD712CF2CE4400818466 /* MustacheCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustacheCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D2CD812CF2CE4700818466 /* MustacheCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustacheCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D2CD8B2CF2CE4700818466 /* MustacheCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustacheCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		08D2CD732CF2CE4400818466 /* MustacheCamera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MustacheCamera;
+			sourceTree = "<group>";
+		};
+		08D2CD842CF2CE4700818466 /* MustacheCameraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MustacheCameraTests;
+			sourceTree = "<group>";
+		};
+		08D2CD8E2CF2CE4700818466 /* MustacheCameraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MustacheCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D2CD6E2CF2CE4400818466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD7E2CF2CE4700818466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD882CF2CE4700818466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D2CD682CF2CE4400818466 = {
+			isa = PBXGroup;
+			children = (
+				08D2CD732CF2CE4400818466 /* MustacheCamera */,
+				08D2CD842CF2CE4700818466 /* MustacheCameraTests */,
+				08D2CD8E2CF2CE4700818466 /* MustacheCameraUITests */,
+				08D2CD722CF2CE4400818466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08D2CD722CF2CE4400818466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D2CD712CF2CE4400818466 /* MustacheCamera.app */,
+				08D2CD812CF2CE4700818466 /* MustacheCameraTests.xctest */,
+				08D2CD8B2CF2CE4700818466 /* MustacheCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D2CD702CF2CE4400818466 /* MustacheCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D2CD952CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCamera" */;
+			buildPhases = (
+				08D2CD6D2CF2CE4400818466 /* Sources */,
+				08D2CD6E2CF2CE4400818466 /* Frameworks */,
+				08D2CD6F2CF2CE4400818466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				08D2CD732CF2CE4400818466 /* MustacheCamera */,
+			);
+			name = MustacheCamera;
+			packageProductDependencies = (
+			);
+			productName = MustacheCamera;
+			productReference = 08D2CD712CF2CE4400818466 /* MustacheCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D2CD802CF2CE4700818466 /* MustacheCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D2CD982CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCameraTests" */;
+			buildPhases = (
+				08D2CD7D2CF2CE4700818466 /* Sources */,
+				08D2CD7E2CF2CE4700818466 /* Frameworks */,
+				08D2CD7F2CF2CE4700818466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D2CD832CF2CE4700818466 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08D2CD842CF2CE4700818466 /* MustacheCameraTests */,
+			);
+			name = MustacheCameraTests;
+			packageProductDependencies = (
+			);
+			productName = MustacheCameraTests;
+			productReference = 08D2CD812CF2CE4700818466 /* MustacheCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08D2CD8A2CF2CE4700818466 /* MustacheCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D2CD9B2CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCameraUITests" */;
+			buildPhases = (
+				08D2CD872CF2CE4700818466 /* Sources */,
+				08D2CD882CF2CE4700818466 /* Frameworks */,
+				08D2CD892CF2CE4700818466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D2CD8D2CF2CE4700818466 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08D2CD8E2CF2CE4700818466 /* MustacheCameraUITests */,
+			);
+			name = MustacheCameraUITests;
+			packageProductDependencies = (
+			);
+			productName = MustacheCameraUITests;
+			productReference = 08D2CD8B2CF2CE4700818466 /* MustacheCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D2CD692CF2CE4400818466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					08D2CD702CF2CE4400818466 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					08D2CD802CF2CE4700818466 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 08D2CD702CF2CE4400818466;
+					};
+					08D2CD8A2CF2CE4700818466 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 08D2CD702CF2CE4400818466;
+					};
+				};
+			};
+			buildConfigurationList = 08D2CD6C2CF2CE4400818466 /* Build configuration list for PBXProject "MustacheCamera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D2CD682CF2CE4400818466;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 08D2CD722CF2CE4400818466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D2CD702CF2CE4400818466 /* MustacheCamera */,
+				08D2CD802CF2CE4700818466 /* MustacheCameraTests */,
+				08D2CD8A2CF2CE4700818466 /* MustacheCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D2CD6F2CF2CE4400818466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD7F2CF2CE4700818466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD892CF2CE4700818466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D2CD6D2CF2CE4400818466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD7D2CF2CE4700818466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D2CD872CF2CE4700818466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D2CD832CF2CE4700818466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D2CD702CF2CE4400818466 /* MustacheCamera */;
+			targetProxy = 08D2CD822CF2CE4700818466 /* PBXContainerItemProxy */;
+		};
+		08D2CD8D2CF2CE4700818466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D2CD702CF2CE4400818466 /* MustacheCamera */;
+			targetProxy = 08D2CD8C2CF2CE4700818466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D2CD932CF2CE4700818466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08D2CD942CF2CE4700818466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D2CD962CF2CE4700818466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MustacheCamera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D2CD972CF2CE4700818466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MustacheCamera/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08D2CD992CF2CE4700818466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustacheCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MustacheCamera";
+			};
+			name = Debug;
+		};
+		08D2CD9A2CF2CE4700818466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustacheCamera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MustacheCamera";
+			};
+			name = Release;
+		};
+		08D2CD9C2CF2CE4700818466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MustacheCamera;
+			};
+			name = Debug;
+		};
+		08D2CD9D2CF2CE4700818466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parsanna.MustacheCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MustacheCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D2CD6C2CF2CE4400818466 /* Build configuration list for PBXProject "MustacheCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D2CD932CF2CE4700818466 /* Debug */,
+				08D2CD942CF2CE4700818466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D2CD952CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D2CD962CF2CE4700818466 /* Debug */,
+				08D2CD972CF2CE4700818466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D2CD982CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D2CD992CF2CE4700818466 /* Debug */,
+				08D2CD9A2CF2CE4700818466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D2CD9B2CF2CE4700818466 /* Build configuration list for PBXNativeTarget "MustacheCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D2CD9C2CF2CE4700818466 /* Debug */,
+				08D2CD9D2CF2CE4700818466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D2CD692CF2CE4400818466 /* Project object */;
+}
